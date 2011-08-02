@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'devise'
 gem 'nokogiri'
 gem 'heroku'
+gem 'annotate'
 
 # Use unicorn as the web server
 # gem 'unicorn'
