@@ -2,6 +2,9 @@ Forum::Application.routes.draw do
   devise_for :users
 
   resources :users
+  match 'home/welcome' => 'home#welcome'
+  root :to => "home#welcome"
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

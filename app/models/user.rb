@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
 end
 
+
 # == Schema Information
 #
 # Table name: users
@@ -25,5 +26,6 @@ end
 #  last_sign_in_ip        :string(255)
 #  created_at             :datetime
 #  updated_at             :datetime
+#  name                   :string(255)
 #
 
